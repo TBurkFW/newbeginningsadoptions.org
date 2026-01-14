@@ -21,10 +21,13 @@
             "Faithworks\\Boilerplate\\": "src/"
         }
     },
-    "config": {
+     "config": {
         "allow-plugins": {
             "composer/installers": true,
             "johnpbloch/wordpress-core-installer": true
+        },
+         "platform": {
+            "php": "8.3.99"
         }
     },
     "extra": {
